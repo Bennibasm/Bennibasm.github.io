@@ -1,15 +1,131 @@
-<!doctype html>
+```html
+<!DOCTYPE html>
 <html lang="no">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Min portfolio</title>
-<style>body{font-family:system-ui,Segoe UI,Arial;margin:40px;max-width:720px}h1{font-size:2rem}a{color:#0a7}code{background:#eef;padding:2px 6px;border-radius:6px}</style>
-<h1>Hei, jeg heter <em>Brynjar</em> 👋</h1>
-<p>Dette er min første nettside publisert med <strong>GitHub Pages</strong>.</p>
-<h2>Prosjekter</h2>
-<ul>
-  <li>Prosjekt 1 – <a href="#">lenke</a></li>
-  <li>Prosjekt 2 – <a href="#">lenke</a></li>
-</ul>
-<p>Kontakt meg: <code>epost@eksempel.no</code></p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katten min</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .about {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .cat-image {
+            width: 300px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+        }
+
+        .info {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🐱 Katten min</h1>
+        <p>Velkommen til siden om katten min!</p>
+    </header>
+
+    <div class="container">
+
+        <section class="about">
+            <h2>Møt katten min</h2>
+
+            <img src="cat.jpg" alt="Bilde av katten min" class="cat-image">
+
+            <p>
+                Dette er katten min, <strong>SKRIV KATTENS NAVN HER</strong>.
+                Han/hun er en veldig koselig katt som liker å sove,
+                spise og leke.
+            </p>
+        </section>
+
+
+        <section class="info">
+            <h2>🐾 Informasjon</h2>
+
+            <ul>
+                <li><strong>Navn:</strong> SKRIV NAVN</li>
+                <li><strong>Alder:</strong> SKRIV ALDER</li>
+                <li><strong>Kjønn:</strong> SKRIV KJØNN</li>
+                <li><strong>Rase:</strong> SKRIV RASE</li>
+                <li><strong>Favorittmat:</strong> SKRIV FAVORITTMAT</li>
+                <li><strong>Favorittleke:</strong> SKRIV FAVORITTLEKE</li>
+            </ul>
+        </section>
+
+
+        <section class="about">
+            <h2>📸 Bilder</h2>
+
+            <div class="gallery">
+                <img src="cat1.jpg" alt="Katten min">
+                <img src="cat2.jpg" alt="Katten min">
+                <img src="cat3.jpg" alt="Katten min">
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Laget av meg 🐱</p>
+    </footer>
+
+</body>
 </html>
+```
